@@ -11,9 +11,3 @@ class Note
 
   attr_reader :title, :body
 end
-
-class NoteFormatter
-  def format(note)
-    "Title: #{note.title}\n#{note.body}"
-  end
-end
