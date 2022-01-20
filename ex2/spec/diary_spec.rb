@@ -23,3 +23,5 @@ describe Diary do
     expect(diary.index).to eq "Christmas\nChristmas"
   end
 end
+
+# cosmetic change
